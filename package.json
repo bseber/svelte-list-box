@@ -1,0 +1,34 @@
+{
+	"name": "@bseber/svelte-list-box",
+	"version": "0.1.0",
+	"description": "A svelte listbox component for [svelte](https://svelte.dev)",
+	"scripts": {
+		"lint": "concurrently 'npm:lint:*'",
+		"lint:eslint": "eslint src",
+		"lint:typescript": "tsc -noEmit",
+		"lint:svelte": "svelte-check",
+		"format": "prettier --write src"
+	},
+	"keywords": [
+		"svelte",
+		"listbox",
+		"list-box"
+	],
+	"author": "Benjamin Seber <benjamin.seber@mailbox.org>",
+	"license": "MIT",
+	"devDependencies": {
+		"@tsconfig/svelte": "2.0.1",
+		"@typescript-eslint/eslint-plugin": "5.5.0",
+		"concurrently": "6.4.0",
+		"eslint": "8.4.0",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-plugin-import": "2.25.3",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-svelte3": "3.2.1",
+		"eslint-plugin-unicorn": "39.0.0",
+		"svelte": "3.44.2",
+		"svelte-check": "2.2.10",
+		"typescript": "4.5.2"
+	},
+	"main": "src/index.ts"
+}
